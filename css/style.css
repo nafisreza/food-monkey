@@ -54,6 +54,8 @@
     display: none;
 }
 
+/* Hero */
+
 .section-hero {
     background-color: #fef2e9;
     padding: 4.8rem 0 9.6rem;
@@ -109,4 +111,32 @@
 
 .delivered-text span {
     color: #dc6c22;
+}
+
+/* Featured */
+
+.section-featured {
+    padding: 4.8rem 0 3.2rem 0;
+}
+
+.heading-featured-in{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.75px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 2.4rem;
+    color: #767676;
+}
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logos img{
+    height: 3.2rem;
+    filter: brightness(0);
+    opacity: 0.70;
 }
