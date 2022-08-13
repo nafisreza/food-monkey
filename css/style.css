@@ -5,7 +5,7 @@
     align-items: center;
     background-color: #fef2e9;
     height: 9.6rem;
-    padding: 0 9.6rem;
+    padding: 0 22.6rem;
     position: relative;
 }
 
@@ -169,15 +169,26 @@
 .step-img-box:before, 
 .step-img-box:after{
     content: "";
+    display: block;
     border-radius: 50%;
     position: absolute;
     top: 50%;
     left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .step-img-box:before{
     width: 60%;
+    padding-bottom: 60%;
     background-color: #fef2e9;
+    z-index: -2;
+}
+
+.step-img-box:after{
+    width: 45%;
+    padding-bottom: 45%;
+    background-color: #fde4d4;
+    z-index: -2;
 }
 
 .step-img{
