@@ -1,1 +1,1 @@
-# Food Monkey - A complete solution for food and grocery
+# Food Monkey - A complete solution for food and groceries
